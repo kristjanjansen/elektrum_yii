@@ -8,8 +8,8 @@
         "classmap" : [
             "vendor/yiisoft/yii/framework/YiiBase.php",
             "vendor/yiisoft/yii/framework/yii.php",
-            "protected/components",
-            "protected/models"
+            "prelive_protected/components",
+            "prelive_protected/models"
         ]
     }
 }

@@ -1,0 +1,1407 @@
+2017/04/04 08:16:35 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(7): require_once('/Users/kristjan...')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#15 {main}
+---
+2017/04/04 08:17:26 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(7): require_once('/Users/kristjan...')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#15 {main}
+---
+2017/04/04 08:17:31 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(7): require_once('/Users/kristjan...')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#15 {main}
+---
+2017/04/04 08:19:17 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(7): require_once('/Users/kristjan...')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#15 {main}
+---
+2017/04/04 08:23:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(7): require_once('/Users/kristjan...')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#15 {main}
+---
+2017/04/04 08:24:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2017/04/04 08:29:02 [error] [php] The use statement with non-compound name 'Collection' has no effect (/Users/kristjanjansen/Documents/projects/laravel/yii/protected/migrations/m170404_081044_create_clients_table.php:6)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#1 unknown(0): MigrateCommand->actionUp()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(12): require_once()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once()
+
+2017/04/04 08:35:27 [error] [php] include(DB.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/migrations/m170404_081044_create_clients_table.php(8): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m170404_081044_create_clients_table->up()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#3 unknown(0): MigrateCommand->actionUp()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(12): require_once()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once()
+
+2017/04/04 08:36:01 [error] [php] include(Client.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/migrations/m170404_081044_create_clients_table.php(18): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m170404_081044_create_clients_table->up()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#3 unknown(0): MigrateCommand->actionUp()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(12): require_once()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once()
+
+2017/04/04 08:39:04 [error] [php] include(User.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/
+2017/04/04 08:39:04 [error] [php] include(User.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/screen.css
+2017/04/04 08:39:04 [error] [php] include(User.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/main.css
+2017/04/04 08:39:04 [error] [php] include(User.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/form.css
+2017/04/04 08:39:04 [error] [php] include(User.php): failed to open stream: No such file or directory (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): spl_autoload_call()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/print.css
+2017/04/04 08:40:40 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'clients' already exists in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('create table `c...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('create table `c...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('create table `c...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `c...')
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Schema/Builder.php(239): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Schema/Builder.php(164): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/migrations/m170404_081044_create_clients_table.php(17): Illuminate\Database\Schema\Builder->create('clients', Object(Closure))
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m170404_081044_create_clients_table->up()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m170404_081044_...')
+#10 [internal function]: MigrateCommand->actionUp(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(12): require_once('/Users/kristjan...')
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#18 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'clients' already exists (SQL: create table `clients` (`id` int unsigned not null auto_increment primary key, `name` varchar(255) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8 collate utf8_unicode_ci) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('create table `c...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('create table `c...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `c...')
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Schema/Builder.php(239): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Schema/Builder.php(164): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/migrations/m170404_081044_create_clients_table.php(17): Illuminate\Database\Schema\Builder->create('clients', Object(Closure))
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m170404_081044_create_clients_table->up()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m170404_081044_...')
+#8 [internal function]: MigrateCommand->actionUp(Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic.php(12): require_once('/Users/kristjan...')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/yiic(4): require_once('/Users/kristjan...')
+#16 {main}
+---
+2017/04/04 08:47:12 [error] [php] Non-static method Illuminate\Database\Eloquent\Model::delete() should not be called statically (/Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php:15)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#6 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/
+2017/04/04 08:47:12 [error] [php] Non-static method Illuminate\Database\Eloquent\Model::delete() should not be called statically (/Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php:15)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#6 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/main.css
+2017/04/04 08:47:12 [error] [php] Non-static method Illuminate\Database\Eloquent\Model::delete() should not be called statically (/Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php:15)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#6 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/screen.css
+2017/04/04 08:47:12 [error] [php] Non-static method Illuminate\Database\Eloquent\Model::delete() should not be called statically (/Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php:15)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#6 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/form.css
+2017/04/04 08:47:12 [error] [php] Non-static method Illuminate\Database\Eloquent\Model::delete() should not be called statically (/Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php:15)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#6 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/print.css
+2017/04/04 08:47:35 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/
+---
+2017/04/04 08:47:35 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:35 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:35 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:35 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:40 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/
+---
+2017/04/04 08:47:40 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:40 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:40 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:47:40 [error] [exception.BadMethodCallException] BadMethodCallException: Method delete does not exist. in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/support/Traits/Macroable.php:74
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): Illuminate\Support\Collection->__call('delete', Array)
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#10 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:05 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:05 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:05 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:05 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:13 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/
+---
+2017/04/04 08:48:13 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:13 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:13 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:48:13 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (0)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(18): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:49:15 [error] [php] Missing argument 1 for Illuminate\Database\Eloquent\Builder::where(), called in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php on line 1329 and defined (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php:192)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): __callStatic()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/
+2017/04/04 08:49:15 [error] [php] Missing argument 1 for Illuminate\Database\Eloquent\Builder::where(), called in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php on line 1329 and defined (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php:192)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): __callStatic()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/form.css
+2017/04/04 08:49:15 [error] [php] Missing argument 1 for Illuminate\Database\Eloquent\Builder::where(), called in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php on line 1329 and defined (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php:192)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): __callStatic()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/screen.css
+2017/04/04 08:49:15 [error] [php] Missing argument 1 for Illuminate\Database\Eloquent\Builder::where(), called in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php on line 1329 and defined (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php:192)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): __callStatic()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/main.css
+2017/04/04 08:49:15 [error] [php] Missing argument 1 for Illuminate\Database\Eloquent\Builder::where(), called in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php on line 1329 and defined (/Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php:192)
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(15): __callStatic()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CWebApplication->run()
+#9 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require()
+REQUEST_URI=/css/print.css
+2017/04/04 08:49:53 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '685' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '685' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (685)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:50:58 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '770' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '770' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (770)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/
+---
+2017/04/04 08:50:58 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '250' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '250' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (250)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:50:58 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '492' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '492' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (492)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:50:58 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '60' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '60' for key 'clients_name_unique' (SQL: insert into `clients` (`name`) values (60)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2114): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insert(Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1329): Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(1341): Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(16): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#16 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#17 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:52:40 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#18 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#19 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#20 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#21 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' (SQL: insert into `clients` (`name`, `updated_at`, `created_at`) values (Important Client, 2017-04-04 08:52:40, 2017-04-04 08:52:40)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+REQUEST_URI=/
+---
+2017/04/04 08:52:40 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#18 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#19 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#20 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#21 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' (SQL: insert into `clients` (`name`, `updated_at`, `created_at`) values (Important Client, 2017-04-04 08:52:40, 2017-04-04 08:52:40)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:52:40 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#18 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#19 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#20 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#21 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' (SQL: insert into `clients` (`name`, `updated_at`, `created_at`) values (Important Client, 2017-04-04 08:52:40, 2017-04-04 08:52:40)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:52:40 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#18 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#19 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#20 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#21 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' (SQL: insert into `clients` (`name`, `updated_at`, `created_at`) values (Important Client, 2017-04-04 08:52:40, 2017-04-04 08:52:40)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://yii.dev/
+---
+2017/04/04 08:52:40 [error] [exception.Illuminate\Database\QueryException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `cl...', Array)
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#18 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#19 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#20 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#21 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Important Client' for key 'clients_name_unique' (SQL: insert into `clients` (`name`, `updated_at`, `created_at`) values (Important Client, 2017-04-04 08:52:40, 2017-04-04 08:52:40)) in /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php:647
+Stack trace:
+#0 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Query/Builder.php(2131): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Builder.php(1242): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#7 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(639): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#8 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/illuminate/database/Eloquent/Model.php(508): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#9 /Users/kristjanjansen/Documents/projects/laravel/yii/protected/controllers/SiteController.php(17): Illuminate\Database\Eloquent\Model->save()
+#10 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /Users/kristjanjansen/Documents/projects/laravel/yii/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Users/kristjanjansen/Documents/projects/laravel/yii/web/index.php(13): CApplication->run()
+#18 /Users/kristjanjansen/.composer/vendor/laravel/valet/server.php(133): require('/Users/kristjan...')
+#19 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://yii.dev/
+---
