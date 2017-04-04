@@ -2,11 +2,18 @@
 
 ```sh
 composer install
+yarn # or npm install
+npm run build
 cp .env.example .env # Modify .env to your needs
 cd prelive_protected
 ./yiic migrate
 ```
 Not point your browser to `/prelive` webroot.
+
+### Future work
+
+https://github.com/Xethron/migrations-generator
+https://github.com/ignasbernotas/laravel-model-generator
 
 ### For internal use: creating the distro
 
@@ -46,3 +53,7 @@ Add the following files:
 protected/components/Loader.php
 protected/models/Client.php
 protected/migrations/*.php
+composer.json
+webpack.mix.js
+protected/css/*
+protected/js/*

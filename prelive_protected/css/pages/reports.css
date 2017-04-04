@@ -1,0 +1,9 @@
+.report-table .divider {
+  padding:0 8px;
+}
+.report-table thead > tr > th {
+  vertical-align:top;
+}
+.report-table tbody .work-row td:first-child {
+  padding-left:20px;
+}

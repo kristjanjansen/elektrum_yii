@@ -1,0 +1,24 @@
+
+.select2-result.worker-accepted {
+  color:#529e1e;
+}
+.select2-result.worker-unentered {
+  color:red;
+}
+.select2-results .select2-result.worker-accepted.select2-highlighted {
+  background:#529e1e;
+  color:#fff;
+}
+
+.workers-table input {
+  min-width:inherit;
+}
+
+.workers-table .times-group-start {
+  border-left:1px solid #e6e7e8;
+  padding-left:15px;
+}
+.workers-table .times-group-end {
+  border-right:1px solid #e6e7e8;
+  padding-right:15px;
+}

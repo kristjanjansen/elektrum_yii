@@ -1,0 +1,11 @@
+.follow-ups-table .status-dd {
+  display:inline-block;
+  position: relative;
+}
+
+.follow-ups-table .status-dd .dropdown-menu {
+  left:0;
+  right:auto;
+  padding:0;
+  min-width:100px;
+}
