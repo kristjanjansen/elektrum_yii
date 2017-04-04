@@ -2,6 +2,7 @@
 
 ```sh
 composer install
+yarn # or npm install
 cp .env.example .env # Modify .env to your needs
 cd prelive_protected
 ./yiic migrate
@@ -46,3 +47,7 @@ Add the following files:
 protected/components/Loader.php
 protected/models/Client.php
 protected/migrations/*.php
+composer.json
+webpack.mix.js
+protected/css/*
+protected/js/*
