@@ -3,6 +3,7 @@
 ```sh
 composer install
 yarn # or npm install
+npm run build
 cp .env.example .env # Modify .env to your needs
 cd prelive_protected
 ./yiic migrate
