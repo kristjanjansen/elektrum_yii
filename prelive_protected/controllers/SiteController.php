@@ -11,12 +11,15 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
 		$client = new Client;
-		$client->name = 'Important Client';
+		$client->name =
+			collect(['John', 'Janet', 'Margaret', 'Fred'])->random()
+			. ' '
+			.collect(['Doe', 'Smith', 'Morgan', 'McLaren'])->random();
 		$client->save();
 
-		print Client::all();
+		$clients = Client::all();
 
-		//$this->render('index');
+		$this->render('index', ['clients' => $clients]);
 	}
 
 

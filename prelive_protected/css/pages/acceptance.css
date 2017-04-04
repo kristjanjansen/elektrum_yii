@@ -1,0 +1,103 @@
+/*Acceptance*/
+
+.small-input {
+  padding: 2px;
+}
+.acceptance-date {
+  margin: 10px 0;
+  padding-left: 4px;
+}
+.acceptance-date h4 {
+  display: inline-block;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #555;
+}
+.acceptance-date i {
+  transition: all .2s ease;
+  color: #555;
+}
+form.bg-success {
+  border-left: 3px solid #c9eca8;
+}
+.acceptance-date.bg-info {
+  border-left: 3px solid #ddf4fa;
+}
+.acceptance-date.bg-danger, form.bg-danger {
+  border-left: 3px solid #f9c9c9;
+}
+.acceptance-info ul {
+  list-style: none;
+  padding: 12px 20px 0px 22px;
+}
+.acceptance-info ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.acceptance-worker, .acceptance-client {
+  margin: 2px 12px;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: table \9;
+  table-layout: fixed \9;
+  width: 100% \9;
+}
+.acc-start {
+  padding: 0 5px 0 10px;
+  -webkit-box-flex: 1.8;
+  -ms-flex: 1.8;
+  flex: 1.8;
+  min-width: 10% \9;
+  width: 13% \9;
+}
+
+.acc-end {
+  padding: 0 15px 0 0;
+  -webkit-box-flex: 1.8;
+  -ms-flex: 1.8;
+  flex: 1.8;
+  min-width: 10% \9;
+  width: 13% \9;
+}
+
+.acc-norm, .acc-percent {
+  padding: 0 5px 0 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 8% \9;
+  width: 8% \9;
+}
+
+.acc-day {
+  padding: 0 5px 0 10px;
+  -webkit-box-flex: 1.8;
+  -ms-flex: 1.8;
+  flex: 1.8;
+  min-width: 10% \9;
+  width: 13% \9;
+}
+
+.acc-night {
+  padding: 0 10px 0 0;
+  -webkit-box-flex: 1.8;
+  -ms-flex: 1.8;
+  flex: 1.8;
+  min-width: 10% \9;
+  width: 13% \9;
+}
+
+.acc-start, .acc-end, .acc-norm, .acc-percent, .acc-day, .acc-night {
+    display: table-cell \9;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.acc-start strong, .acc-end strong, .acc-norm strong, .acc-percent strong, .acc-day strong, .acc-night strong {
+  width: 100% \9;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,54 @@
+/*WORKS, FORMS, MODALS*/
+
+a.btn-sm:hover, a.btn-sm:active, a.btn-sm:focus {
+    text-decoration: none;
+}
+.modal {
+    background: none;
+    background: rgba(0,0,0,.06);
+    overflow-y: auto;
+}
+.form-btns a.btn-sm {
+    white-space: nowrap;
+    line-height: 28px;
+}
+td input {
+    width: 100%;
+}
+td input[type="text"] {
+    height: 28px;
+}
+.short-date {
+  height: 26px;
+}
+.bottom-buffer {
+  margin-bottom:20px;
+}
+input[type="checkbox"].checkbox-bigger {
+  width: 100%;
+  height: 18px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 90%;
+        max-width: 1024px;
+        margin: 30px auto;
+    }
+
+    #card_types_placeholder.form-group {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        display: table \9;
+        table-layout: fixed \9;
+        width: 100% \9;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+    }
+}
