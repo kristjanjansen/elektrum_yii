@@ -1,6 +1,17 @@
+### Installation
+
 ```sh
-mkdir yii
-cd yii
+cp .env.example .env
+# Modify .env to your needs
+cd protected
+./yiic migrate
+```
+
+### Creating this setup
+
+```sh
+mkdir elektrum_yii
+cd elektrum_yii
 composer require yiisoft/yii
 cd vendor/yiisoft/yii/framework/
 ./yiic webapp ../../../../web
@@ -11,15 +22,15 @@ rm -R web/images
 rm -R web/themes
 rm -R web/index-test.php
 mv web/protected .
-rm protected/models/*
 rm -R protected/.htaccess
-rm -R protected/vendor
-rm -R protected/extensions
 rm -R protected/commands/shell
+rm -R protected/data
+rm -R protected/extensions
+rm -R protected/models/*
+rm -R protected/vendor
 ```
 
 Modify the following files:
-
 
 ```sh
 web/index.php
@@ -28,7 +39,7 @@ protected/config/database.php
 protected/controllers/SiteController.php
 ```
 
-Add following files
+Add the following files:
 
 ```
 protected/components/Loader.php
