@@ -1,11 +1,12 @@
 ### Installation
 
 ```sh
-cp .env.example .env
-# Modify .env to your needs
-cd protected
+composer install
+cp .env.example .env # Modify .env to your needs
+cd prelive_protected
 ./yiic migrate
 ```
+Not point your browser to `/prelive` webroot.
 
 ### Creating this setup
 
