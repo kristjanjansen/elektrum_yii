@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+prelive/fonts/
+prelive/css/
+prelive/js/
+prelive/img/
+prelive/mix-manifest.json
+npm-debug.log
+yarn-error.log
+.env
+vendor
+protected/runtime

@@ -1,0 +1,15 @@
+{
+    "require": {
+        "yiisoft/yii": "^1.1",
+        "illuminate/database": "^5.4",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "classmap" : [
+            "vendor/yiisoft/yii/framework/YiiBase.php",
+            "vendor/yiisoft/yii/framework/yii.php",
+            "protected/components",
+            "protected/models"
+        ]
+    }
+}
