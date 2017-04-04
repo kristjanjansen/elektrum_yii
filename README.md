@@ -10,6 +10,11 @@ cd prelive_protected
 ```
 Not point your browser to `/prelive` webroot.
 
+### Future work
+
+https://github.com/Xethron/migrations-generator
+https://github.com/ignasbernotas/laravel-model-generator
+
 ### For internal use: creating the distro
 
 ```sh
