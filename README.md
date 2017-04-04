@@ -8,7 +8,7 @@ cd prelive_protected
 ```
 Not point your browser to `/prelive` webroot.
 
-### Creating this setup
+### For internal use: creating the distro
 
 ```sh
 mkdir elektrum_yii
