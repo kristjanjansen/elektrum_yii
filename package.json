@@ -24,7 +24,8 @@
     "jquery-ui-timepicker-addon": "^1.6.3",
     "moment": "^2.18.1",
     "parsleyjs": "^2.7.0",
-    "select2": "^4.0.3"
+    "select2": "^4.0.3",
+    "webpack": "^2.3.3"
   },
   "devDependencies": {
     "cross-env": "^3.2.4",

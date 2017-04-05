@@ -6,7 +6,8 @@ yarn # or npm install
 npm run build
 cp .env.example .env # Modify .env to your needs
 cd prelive_protected
-./yiic migrate
+chmod 777 runtime
+./yiic migrate --interactive=0
 ```
 Not point your browser to `/prelive` webroot.
 
