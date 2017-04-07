@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
     <div class="panel-heading">
-        <h4>Hello World</h4>
+        <h4>Hello World x 2</h4>
     </div>
     <div class="panel-body">
         
