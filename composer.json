@@ -2,7 +2,13 @@
     "require": {
         "yiisoft/yii": "^1.1",
         "illuminate/database": "^5.4",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "laravel/dusk": "^1.0",
+        "laravel/framework": "^5.4",
+        "moon/artisan": "^1.8",
+        "illuminate/container": "^5.4",
+        "laravel/tinker": "^1.0",
+        "phpunit/phpunit": "^6.1"
     },
     "autoload": {
         "classmap" : [
@@ -10,6 +16,10 @@
             "vendor/yiisoft/yii/framework/yii.php",
             "prelive_protected/components",
             "prelive_protected/models"
-        ]
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Tests\\": "tests/"
+        }
     }
 }
